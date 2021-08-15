@@ -1,6 +1,12 @@
 body {
   color: #61dafb;
 }
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
 
 .App {
   text-align: center;
