@@ -11,6 +11,7 @@ function Principles({ props }) {
           </li>
         ))}
       </ul>
+      <button type="button">Подробнее о компании</button>
     </section>
   );
 }
