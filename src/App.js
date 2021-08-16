@@ -5,6 +5,8 @@ import heroData from './components/hero/hero.json';
 import Hero from './components/hero/Hero.jsx';
 import principlesData from './components/principles/principles.json';
 import Principles from './components/principles/Principles.jsx';
+import Klient from './components/klients/Klient.jsx';
+import klientData from './components/klients/klient-data.json';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Header />
       <Hero props={heroData} />
       <Principles props={principlesData} />
+      <Klient props ={klientData}/>
+
     </div>
   );
 }
