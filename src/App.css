@@ -1,5 +1,5 @@
 body {
-  color: #61dafb;
+  /* color: #61dafb; */
 }
 ul {
   list-style: none;
@@ -7,10 +7,9 @@ ul {
 a {
   text-decoration: none;
 }
-
 .App {
-  text-align: center;
-  background-color: black;
+  /* text-align: center; */
+  /* background-color: black; */
 }
 
 .App-logo {
