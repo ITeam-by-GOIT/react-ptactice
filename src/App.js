@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
-import Header from './components/header/Header';
-import heroData from './components/hero/hero.json';
-import Hero from './components/hero/Hero.jsx';
-import principlesData from './components/principles/principles.json';
-import Principles from './components/principles/Principles.jsx';
-import Contacts from './components/contacts/Contacts.jsx';
-import Klient from './components/klients/Klient.jsx';
-import klientData from './components/klients/klient-data.json';
+// import logo from './logo.svg';
+// import './App.css';
+// import Header from './components/header/Header';
+// import heroData from './components/hero/hero.json';
+// import Hero from './components/hero/Hero.jsx';
+// import principlesData from './components/principles/principles.json';
+// import Principles from './components/principles/Principles.jsx';
+// import Contacts from './components/contacts/Contacts.jsx';
+// import Klient from './components/klients/Klient.jsx';
+// import klientData from './components/klients/klient-data.json';
+import Pexel from './components/Pexel';
+import {Component} from 'react';
 
 
-function App() {
-  return (
-    <div className="App">
-      <Header />
-      <Hero props={heroData} />
-      <Principles props={principlesData} />
-      <Contacts />
-      <Klient props ={klientData}/>
-    </div>
-  );
+class App extends Component {
+  state = {
+    query: '',
+  }
+
+  getDataFromForm = data => {
+    // console.log(data)
+  }
+  render() {
+    const {getDataFromForm} = this;
+    return (
+      <div className="App">
+        {/* <Header />
+        <Hero props={heroData} />
+        <Principles props={principlesData} />
+        <Contacts />
+        <Klient props ={klientData}/> */}
+        <Pexel onSubmit={getDataFromForm}/>
+      </div>
+    );
+  }
+  
 }
 
 export default App;
