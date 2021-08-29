@@ -11,7 +11,7 @@ a {
   padding-top: 150px;
   padding-left: 200px;
   padding-bottom: 98px;
-  width: 920px;
+  width: 1200px;
 }
 .mainTitle {
   color: #fff;
@@ -55,42 +55,4 @@ a {
   line-height: 0.555;
   color: #ffffff;
   margin-bottom: 45px;
-}
-.formLabel {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.562;
-  color: #ffffff;
-}
-.formWrapper::placeholder {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 2.143;
-  color: #ffffff;
-}
-.formInput {
-  width: 339px;
-  height: 60px;
-  background-color: #151515;
-  border: none;
-  color: #ffffff;
-  padding-left: 20px;
-}
-.buttonCall {
-  background: #232323;
-  border: 1px solid #e4b564;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 3.75;
-  text-align: center;
-  color: #e4b564;
-  width: 338px;
-  height: 60px;
-}
-.labelCheck {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.563;
-  color: #ffffff;
-  margin-left: 22px;
 }
