@@ -1,5 +1,5 @@
 import styles from '../contacts/contacts.module.css';
-import Forma from './Forma.jsx';
+// import Forma from './Forma.jsx';
 import React, { Component } from 'react';
 
 export default class Contacts extends Component {
@@ -32,7 +32,7 @@ export default class Contacts extends Component {
             Задайте вопрос, пришлите коммерческое предложение или пригласите на
             тендер
           </p>
-          <Forma />
+          {/* <Forma /> */}
         </div>
         <div className={styles.imageBlock}></div>
       </section>

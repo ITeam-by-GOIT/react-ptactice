@@ -1,11 +1,17 @@
+import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { useLocation } from 'react-router';
 export default function Navigation() {
+  const location = useLocation();
   return (
     <nav>
       <ul>
         <li>
           <NavLink
-            to="/"
+            to={{
+              pathname: '/',
+              state: { from: location },
+            }}
             activeStyle={{
               fontWeight: 'bold',
               color: 'red',
@@ -16,7 +22,10 @@ export default function Navigation() {
         </li>
         <li>
           <NavLink
-            to="/company"
+            to={{
+              pathname: `/company`,
+              state: { from: location },
+            }}
             activeStyle={{
               fontWeight: 'bold',
               color: 'red',
@@ -27,7 +36,10 @@ export default function Navigation() {
         </li>
         <li>
           <NavLink
-            to="/vacancy"
+            to={{
+              pathname: '/vacancy',
+              state: { from: location },
+            }}
             activeStyle={{
               fontWeight: 'bold',
               color: 'red',
@@ -38,7 +50,10 @@ export default function Navigation() {
         </li>
         <li>
           <NavLink
-            to="/services"
+            to={{
+              pathname: '/services',
+              state: { from: location },
+            }}
             activeStyle={{
               fontWeight: 'bold',
               color: 'red',
@@ -48,9 +63,11 @@ export default function Navigation() {
           </NavLink>
           <ul>
             <li>
-              {' '}
               <NavLink
-                to="/services/1"
+                to={{
+                  pathname: '/services/1',
+                  state: { from: location },
+                }}
                 activeStyle={{
                   fontWeight: 'bold',
                   color: 'red',
@@ -62,7 +79,10 @@ export default function Navigation() {
             <li>
               {' '}
               <NavLink
-                to="/services/2"
+                to={{
+                  pathname: '/services/2',
+                  state: { from: location },
+                }}
                 activeStyle={{
                   fontWeight: 'bold',
                   color: 'red',
@@ -73,7 +93,10 @@ export default function Navigation() {
             </li>
             <li>
               <NavLink
-                to="/services/3"
+                to={{
+                  pathname: '/services/3',
+                  state: { from: location },
+                }}
                 activeStyle={{
                   fontWeight: 'bold',
                   color: 'red',
@@ -84,7 +107,10 @@ export default function Navigation() {
             </li>
             <li>
               <NavLink
-                to="/services/4"
+                to={{
+                  pathname: '/services/4',
+                  state: { from: location },
+                }}
                 activeStyle={{
                   fontWeight: 'bold',
                   color: 'red',
@@ -95,7 +121,10 @@ export default function Navigation() {
             </li>
             <li>
               <NavLink
-                to="/services/5"
+                to={{
+                  pathname: '/services/5',
+                  state: { from: location },
+                }}
                 activeStyle={{
                   fontWeight: 'bold',
                   color: 'red',
@@ -108,7 +137,10 @@ export default function Navigation() {
         </li>
         <li>
           <NavLink
-            to="/proecty"
+            to={{
+              pathname: '/proecty',
+              state: { from: location },
+            }}
             activeStyle={{
               fontWeight: 'bold',
               color: 'red',
@@ -119,7 +151,10 @@ export default function Navigation() {
         </li>
         <li>
           <NavLink
-            to="/contacts"
+            to={{
+              pathname: '/contacts',
+              state: { from: location },
+            }}
             activeStyle={{
               fontWeight: 'bold',
               color: 'red',
@@ -130,7 +165,10 @@ export default function Navigation() {
         </li>
         <li>
           <NavLink
-            to="/politic_confident"
+            to={{
+              pathname: '/politic_confident',
+              state: { from: location },
+            }}
             activeStyle={{
               fontWeight: 'bold',
               color: 'red',
