@@ -1,0 +1,2 @@
+(this["webpackJsonpreact-ptactice"]=this["webpackJsonpreact-ptactice"]||[]).push([[9],{39:function(t,e,c){"use strict";c.r(e);c(0);var n=c(1),r=c(3);e.default=function(){var t=Object(n.g)(),e=Object(n.f)();return Object(r.jsxs)("div",{children:[Object(r.jsx)("button",{type:"button",onClick:function(){var c;(null===(c=t.state)||void 0===c?void 0:c.from)?e.push(t.state.from):e.push("/")},children:"Go back"}),Object(r.jsx)("h1",{children:"WaterNetwork page"})]})}}}]);
+//# sourceMappingURL=9.ac799038.chunk.js.map
